@@ -125,11 +125,13 @@ h1 {
 h2 {
 	font-size: 25px;
 	font-weight: 600;
+	margin-top: 25px;
 }
 
 h3 {
 	font-size: 20px;
 	font-weight: 500;
+	margin-top: 17px;
 }
 
 p.small {
