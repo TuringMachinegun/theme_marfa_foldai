@@ -362,6 +362,7 @@ footer #wrapper {
 
 #post-meta .fold-ai-img-container img {
 	height: 100px;
+	width: 100px;
 	object-fit: contain;
 	border-radius: 50%;
 	box-shadow: 0 0 0 3px #fff, 0 0 0 4px #eee;
