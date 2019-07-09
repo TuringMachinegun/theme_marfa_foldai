@@ -360,7 +360,7 @@ footer #wrapper {
 	border-bottom: 1px solid #eee;
 }
 
-#post-meta .fold-ai-container img {
+#post-meta .fold-ai-img-container img {
 	height: 100px;
 	object-fit: contain;
 	border-radius: 50%;
