@@ -351,7 +351,6 @@ footer #wrapper {
 
 #post-meta {
 	font-size: 13px;
-	font-weight: bold;
 	line-height: 1.5;
 	border-top: 1px solid #eee;
 	padding-top: 40px;
@@ -359,6 +358,21 @@ footer #wrapper {
 	margin-top: 60px;
 	color:#444;
 	border-bottom: 1px solid #eee;
+}
+
+#post-meta .fold-ai-container img {
+	height: 100px;
+	object-fit: contain;
+	border-radius: 50%;
+	box-shadow: 0 0 0 3px #fff, 0 0 0 4px #eee;
+	padding: 10px 10px 10px 10px;
+}
+
+#post-meta .fold-ai-post-cta p {
+	margin-top: 0;
+	width: 300px;
+	margin-left: 20px;
+	font-weight: normal;
 }
 
 #post-meta div span {
