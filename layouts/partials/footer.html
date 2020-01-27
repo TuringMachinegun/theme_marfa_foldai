@@ -1,5 +1,11 @@
 <footer id="footer">
 
+<script>
+var context = document.querySelectorAll("section.post-body");
+var instance = new Mark(context);
+instance.markRegExp(/ ([@]|[#])([a-z])\w+/gmi, {"element": "span", "className": "hashtag"});
+</script>
+
 <section id="wrapper">
   <ul>
     <li><a href="/feed.xml">RSS</a></li>
