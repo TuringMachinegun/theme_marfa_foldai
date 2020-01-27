@@ -16,6 +16,12 @@
   <link href="{{ "assets/css/style.css" | relURL }}" rel="stylesheet">
   <link href="{{ "assets/css/highlight.css" | relURL }}" rel="stylesheet">
   <link rel="stylesheet" href="{{ "custom.css" | relURL }}">
+  <script src="{{ "assets/javascript/mark.min.js" | relURL }}" charset="UTF-8"></script>
+  <script>
+    var context = document.querySelector(".post-body");
+    var instance = new Mark(context);
+    instance.mark(/([@]|[#])([a-z])\w+/gmi);
+  </script>
 
 	<link rel="shortcut icon" href="https://micro.blog/{{ .Site.Author.username }}/favicon.png" type="image/x-icon" />
 
