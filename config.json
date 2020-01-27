@@ -1,5 +1,6 @@
 {
-  "params": {
-    "indie_webring": true
+    "params": {
+        "description": "Our microblog, see what we're up to!",
+        "indie_webring": true
   }
 }
