@@ -197,6 +197,10 @@ li	{ list-style-type:circle; list-style-position:inside;}
 	list-style-type: disc;
 }
 
+.post-body .hashtag{
+    color: navy;
+}
+
 b, strong {
 	font-weight: 600;
   color: #1E2025;
